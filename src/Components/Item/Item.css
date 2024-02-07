@@ -1,0 +1,90 @@
+.tile-container {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .tile {
+    width : 300px;
+    height : 400px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .tile:hover {
+    transform: scale(1.05);
+  }
+  
+  .title {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    text-decoration: underline;
+  }
+  
+  .subtitle {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .author {
+    font-size: 1em;
+    color: #888;
+    margin-bottom: 4px;
+  }
+  
+  .description {
+    font-size: 1em;
+    color: #666;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 10px;
+  }
+  
+  .rent-button,
+  .wishlist-button,
+  .rented-button,
+  .remove-permanently,
+  .wishlisted-button {
+    padding: 10px;
+    width: 48%;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left : 4px;
+  }
+  
+  .rent-button {
+    background-color: #28a745; /* Green color for Rent button */
+    color: #fff;
+  }
+  
+  .wishlist-button {
+    background-color: #007bff; /* Blue color for Wishlist button */
+    color: #fff;
+  }
+  
+  .buttons button:hover {
+    filter: brightness(90%); /* Slightly reduce brightness on hover */
+  }
+  .rented-button {
+    background-color: rgb(165, 7, 7);; /* Blue color for Wishlist button */
+    color: #fff;
+  }
+  .remove-permanently {
+    background-color: rgb(255, 40, 40);
+  }
+  
+  .wishlisted-button {
+    background-color: darkmagenta;
+  }

@@ -1,0 +1,12 @@
+.wishlistlist-body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wishlistlist-container {
+    background-color: aquamarine;
+    padding : 20px;
+    border-radius: 4px;
+}

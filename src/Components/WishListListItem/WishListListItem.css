@@ -1,0 +1,23 @@
+.wishlistlistitem-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.book-title {
+    font-size: 18px;
+    font-weight: 550;
+}
+.book-username {
+    font-size: 16px;
+    margin-left : 15px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+.one-data {
+    display: flex;
+}
+.username-head {
+    display: flex;
+    flex-direction: row;
+    
+}
